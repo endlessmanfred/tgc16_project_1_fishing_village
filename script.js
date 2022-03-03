@@ -48,6 +48,43 @@ hillviewMarker.addEventListener('click', function(){
     alert("I can see my house from here!");
 })
 
+////// JETTY MARKERS //////
+let woodlandsJettyMarker = L.marker([1.455121, 103.777874]).addTo(map);
+let sembawangJettyMarker = L.marker([1.464334, 103.837198]).addTo(map);
+let punggolPointMarker = L.marker([1.421852, 103.910678]).addTo(map);
+let pasirRisParkMarker = L.marker([1.384529, 103.950554]).addTo(map);
+let pulauUbinMarker = L.marker([1.400135, 103.968224]).addTo(map);
+let changiMarker = L.marker([1.393659, 103.987839]).addTo(map);
+let sungeiBedokMarker = L.marker([1.313913, 103.963731]).addTo(map);
+let bedokJettyMarker = L.marker([1.305247, 103.942163]).addTo(map);
+let marinaSouthPierMarker = L.marker([1.268816, 103.861784]).addTo(map);
+let labradorNatureReserveMarker = L.marker([1.264617, 103.806939]).addTo(map);
+let labradorJettyMarker = L.marker([1.265761, 103.800144]).addTo(map);
+let westCoastMarker = L.marker([1.265761, 103.800144]).addTo(map);
+let southernIslandsMarker = L.marker([1.222006, 103.851166]).addTo(map);
+let pulauHantuMarker = L.marker([1.225360, 103.750207]).addTo(map);
+let pangSuaMarker = L.marker([1.401640, 103.752340]).addTo(map);
+let upperSeletarMarker = L.marker([1.405987, 103.807241]).addTo(map);
+let lowerSeletarMarker = L.marker([1.406579, 103.828820]).addTo(map);
+let lowerPierceMarker = L.marker([1.370456, 103.825692]).addTo(map);
+let serangoonMarker = L.marker([1.405831, 103.920479]).addTo(map);
+let bedokMarker = L.marker([1.342376, 103.926275]).addTo(map);
+let pettonCanalMarker = L.marker([1.322013, 103.879677]).addTo(map);
+let kolamAyerMarker = L.marker([1.321557, 103.867485]).addTo(map);
+let macritchieMarker = L.marker([1.344745, 103.834540]).addTo(map);
+let geylangRiverMarker = L.marker([1.304999, 103.883995]).addTo(map);
+let kallangRiverMarker = L.marker([1.309176, 103.870014]).addTo(map);
+let rochorCanalMarker = L.marker([1.306058, 103.863073]).addTo(map);
+let pandanReservoirMarker = L.marker([1.313397, 103.741913]).addTo(map);
+let auntiesSaltwaterMarker = L.marker([1.444752, 103.728974]).addTo(map);
+let ahLimMarker = L.marker([1.443390, 103.728786]).addTo(map);
+let fishingParadiseMarker = L.marker([1.413019, 103.830219]).addTo(map);
+let gillsFishingMarker = L.marker([1.415829, 103.898843]).addTo(map);
+let edsMarker = L.marker([1.390141, 103.929210]).addTo(map);
+let boatSouthernIslandMarker = L.marker([1.235540, 103.807251]).addTo(map);
+let boatTuasMarker = L.marker([1.309131, 103.618866]).addTo(map);
+let boatPunggolMarker = L.marker([1.443970, 103.871433]).addTo(map);
+let boatChangiMarker = L.marker([1.398654, 103.985452]).addTo(map);
 
 ////// CIRCLE //////
 // create a circle
