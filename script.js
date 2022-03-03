@@ -114,7 +114,7 @@ bukitTimahCircle.addTo(map);
 /////
 window.addEventListener('DOMContentLoaded', async function() {
     // #1 Load in geojson data
-    let response = await axios.get("map.geojson");
+    let response = await axios.get("fishing_map.geojson");
     let data = response.data;
     console.log(data);
     let x = L.geoJSON(data, {
